@@ -4,6 +4,9 @@ int main(){
     int n,anx,A[20];
     cout<<"Ingrese la cantidad de numeros: ";
     cin>>n; 
+    if(n<1||n>20){
+        cout<<"Cantidad invalida.Ingrese una cantidad mayor a 1 y menor a 20."<<endl;
+    }
     for(int i=0;i<n;i++){
         cin>>A[i];
     }
